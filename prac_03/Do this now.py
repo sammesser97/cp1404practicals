@@ -12,7 +12,12 @@
 # print(things[-2])
 
 
-names = ["Bob", "jimbo", "sally"]
-for i in range(len(names)):
-    names[i] = names[i].title()
-print(names)
+# names = ["Bob", "jimbo", "sally"]
+# for i in range(len(names)):
+#     names[i] = names[i].title()
+# print(names)
+
+def fn(x, y):
+    z = x + y
+
+print(fn(1, 2))
